@@ -1,0 +1,50 @@
+/* Hero Section */
+.hero-section {
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero-image {
+    background-image: url('/images/img1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.signup-btn {
+    background-color: #28A745; /* Slightly lighter green */
+    border-color: #4CAF50;
+}
+
+.signup-btn:hover {
+    background-color: #388E3C; /* Darker on hover, matching Sign In */
+}
+
+#logo {
+    width: 100px;
+}
+
+#footer-img1{
+    width: 60px;
+}
+#footer-img2{
+    width: 50px;
+}
+#footer-img3{
+    width: 40px;
+}
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Feedback Button */
+.feedback-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
